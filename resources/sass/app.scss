@@ -1,0 +1,44 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Fontawesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+
+.form_color {
+    background-image: url('../img/sfondo-jumbotron.png');
+    color: white;
+    background-size: cover;
+}
+
+.fa-envelope, .fa-lock, .fa-user{
+    font-size: 20px;
+}
+
+.card-body  input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.btn_color {
+    background-image: $main_gradient;
+    color: white;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
